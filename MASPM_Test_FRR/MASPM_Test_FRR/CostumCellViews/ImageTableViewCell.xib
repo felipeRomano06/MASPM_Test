@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageCell" rowHeight="218" id="KGk-i7-Jjw" customClass="ImageTableViewCell" customModule="MASPM_Test_FRR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="519" height="218"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="519" height="218"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZgA-cI-PUl">
+                        <rect key="frame" x="10" y="29" width="499" height="160.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCh-RC-B5a">
+                                <rect key="frame" x="0.0" y="0.0" width="499" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Da1-Zr-dez">
+                                <rect key="frame" x="0.0" y="20.5" width="499" height="140"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XhM-mn-cbC">
+                                        <rect key="frame" x="0.0" y="1" width="240" height="137.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="Q4R-Sb-Dtk"/>
+                                            <constraint firstAttribute="width" constant="240" id="qn6-1B-gyH"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="hOy-yU-CUq">
+                                        <rect key="frame" x="240" y="0.0" width="259" height="140"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PKE-xm-BPf">
+                                                <rect key="frame" x="0.0" y="0.0" width="259" height="53.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkP-WD-7qy">
+                                                <rect key="frame" x="0.0" y="53.5" width="259" height="86.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="86.5" id="Eed-Oj-88q"/>
+                                                </constraints>
+                                                <state key="normal" title="Tomar Foto"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ZgA-cI-PUl" secondAttribute="bottom" constant="28.5" id="C6W-Oz-ABg"/>
+                    <constraint firstItem="ZgA-cI-PUl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="T8T-Tr-jEH"/>
+                    <constraint firstAttribute="trailing" secondItem="ZgA-cI-PUl" secondAttribute="trailing" constant="10" id="uoc-rC-L1t"/>
+                    <constraint firstItem="ZgA-cI-PUl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="29" id="xRt-lm-QXa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="_buttonImage" destination="IkP-WD-7qy" id="CRH-kq-cmD"/>
+                <outlet property="_image" destination="XhM-mn-cbC" id="qrY-yb-Vff"/>
+                <outlet property="_textFieldImage" destination="PKE-xm-BPf" id="6YI-rP-DdX"/>
+                <outlet property="_title" destination="pCh-RC-B5a" id="Mpx-hg-u2N"/>
+            </connections>
+            <point key="canvasLocation" x="281.8840579710145" y="152.00892857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
+    </resources>
+</document>

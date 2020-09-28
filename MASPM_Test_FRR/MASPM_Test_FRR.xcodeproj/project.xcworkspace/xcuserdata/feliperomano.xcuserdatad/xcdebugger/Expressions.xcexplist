@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "FirstTableViewController.recuperaDatos():FirstTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seccion1SecondV">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.tableView(_:didDeselectRowAt:):SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seccion1Objeto">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.buttonReady(_:):SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seccion1Objeto">
+            </PersistentString>
+            <PersistentString
+               value = "seccion2Objeto">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FirstTableViewController.viewDidLoad():FirstTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "seccion2">
+            </PersistentString>
+            <PersistentString
+               value = "seccion1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.viewDidLoad():SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tablaClase.celdasImagen">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.textFieldDidEndEditing(_:):SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.tableView(_:cellForRowAt:):SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "seccion2Objeto">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.tableView(_:numberOfRowsInSection:):SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "seccion2Objeto">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FirstTableViewController.tableView(_:didSelectRowAt:):FirstTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellSelected">
+            </PersistentString>
+            <PersistentString
+               value = "cellSelected.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SecondTableViewController.guardarDatos():SecondTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imagen">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
